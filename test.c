@@ -4,7 +4,7 @@ int main(){
 
 
 	printf("跑路咯\n");
-
+	printf("我再跑一次路,哼\n");
 
 
 	printf("this is a test\n");
