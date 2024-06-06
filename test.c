@@ -3,7 +3,7 @@ int main(){
 	
 
 
-
+	printf("跑路咯\n");
 
 
 
