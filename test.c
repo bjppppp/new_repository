@@ -14,5 +14,6 @@ int main(){
 	printf("this is a test\n");
 
 	printf("开开心心写代码\n");
+	printf("继续开开心心写代码\n");
 	return 0;
 }
