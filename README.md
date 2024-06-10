@@ -41,12 +41,14 @@ LICENSE许可证:GPL2.0,3.0.Apahce 2.0，Mit，这些许可证，给使用者最
 
 ### 1、让网站的账户与设备绑定，后续完成代码的管理，上传下载
 
-``` C
+```shell
 git init //创建本地仓库，后续对仓库的操作，都要在仓库位置（master）
 
 ```
-``` C
+
+```shell
 git config -list //查看git的配置文件
+
 ```
 
 
