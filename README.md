@@ -41,12 +41,12 @@ LICENSE许可证:GPL2.0,3.0.Apahce 2.0，Mit，这些许可证，给使用者最
 
 ### 1、让网站的账户与设备绑定，后续完成代码的管理，上传下载
 
-```shell
+```bash
 git init
 
 ```
 
-```shell
+```bash
 git config -list
 
 ```
