@@ -41,19 +41,19 @@ LICENSE许可证:GPL2.0,3.0.Apahce 2.0，Mit，这些许可证，给使用者最
 
 ### 1、让网站的账户与设备绑定，后续完成代码的管理，上传下载
 
-```bash
+```C
 git init    // 创建本地仓库，后续对仓库的操作，都要在仓库位置（master）
 
 ```
 
-```bash
+```C
 git config -list    、、查看git配置文件
 
 ```
 
 #### 修改或添加config配置项
 
-```bash
+```C
 git config --global user.name   //用户名
 git config --global user.email  //注册邮箱
 
@@ -61,7 +61,7 @@ git config --global user.email  //注册邮箱
 
 #### 生成本机设备密文
 
-```bash
+```C
 ssh-keygen -t rsa -C "注册邮箱"  # 创建本地密文，去对应的目录下查找密文文件
 
 ```
@@ -69,13 +69,13 @@ rsa.pub 复制密文，粘贴到setting->SSH key and GPG->new ssh key->粘贴
 
 #### 测试关联是否完成
 
-```bash
+```C
 ssh -T git@github.com   # ssh远程登录 
 
 ```
 ### 2、为目标仓库起别名，定位目标仓库，后续上传
 
-```bash
+```C
 git remote add orgin(别名) SSH地址(云端仓库地址)
 
 git remote remove origin  #删除地址别名
@@ -83,31 +83,31 @@ git remote remove origin  #删除地址别名
 ```
 ## 本地设备与云端仓库的交互逻辑
 
-```bash
+```C
 git add code.c
 
 ```
 
-```shell
+```C
 #将缓冲区数据提交到本地仓库
 git commit   #提交到本地仓库
 
 git commit -m "备注信息"     #生成提交记录
 
 ```
-```shell
+```C
 git push origin(云端仓库地址) master   #将本地仓库内容推到云端仓库
 
 ```
 
-```shell
+```C
 git status	#查看状态
 ```
 
-```shell
+```C
 git rm code.c	#删除本地文件及仓库文件
 ```
-```shell
+```C
 git restore code.c 	#复位误删除文件（仓库存在）
 ```
 
@@ -116,11 +116,11 @@ git restore code.c 	#复位误删除文件（仓库存在）
 导致本地内容无法再次提交
 
 ### 先拉去git pull 云端内容 与 本地内容合并或操作，而后再次推即可
-```shell
+```C
 git pull --rebase origin master
 ```
 
-```shell
+```C
 git rebase --abort  	
 #将引起冲突的commits丢弃掉
 
@@ -132,7 +132,7 @@ git rebase --continue
 
 ```
 ## 下载开源代码
-```shell
+```C
 git clone "https仓库地址"	#下载开源项目code资源
 ```
 
