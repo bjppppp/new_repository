@@ -88,26 +88,26 @@ git add code.c
 
 ```
 
-```bash
+```shell
 #将缓冲区数据提交到本地仓库
 git commit   #提交到本地仓库
 
 git commit -m "备注信息"     #生成提交记录
 
 ```
-```bash
+```shell
 git push origin(云端仓库地址) master   #将本地仓库内容推到云端仓库
 
 ```
 
-```bash
+```shell
 git status	#查看状态
 ```
 
-```bash
+```shell
 git rm code.c	#删除本地文件及仓库文件
 ```
-```bash
+```shell
 git restore code.c 	#复位误删除文件（仓库存在）
 ```
 
@@ -116,11 +116,11 @@ git restore code.c 	#复位误删除文件（仓库存在）
 导致本地内容无法再次提交
 
 ### 先拉去git pull 云端内容 与 本地内容合并或操作，而后再次推即可
-```bash
+```shell
 git pull --rebase origin master
 ```
 
-```bash
+```shell
 git rebase --abort  	
 #将引起冲突的commits丢弃掉
 
@@ -132,7 +132,7 @@ git rebase --continue
 
 ```
 ## 下载开源代码
-```bash
+```shell
 git clone "https仓库地址"	#下载开源项目code资源
 ```
 
