@@ -24,7 +24,7 @@ xx（socket）sample：查询对应技术（socket）的代码样本<br>
 默认的仓库主分支为master/main
 * 不仅可以管理代码存储，而且便于多人协作开发
 
-![](https://postimg.cc/dLrqrNSw)
+[![1718071982372.png](https://i.postimg.cc/m26tx0Yz/1718071982372.png)](https://postimg.cc/dLrqrNSw)
 
 ## 仓库内容
 
