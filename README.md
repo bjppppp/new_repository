@@ -87,6 +87,8 @@ git remote remove origin  #删除地址别名
 ```
 ## 本地设备与云端仓库的交互逻辑
 
+[![1718072918312.png](https://i.postimg.cc/cJcWWnp9/1718072918312.png)](https://postimg.cc/5HjTq6NL)
+
 ```C
 git add code.c
 
